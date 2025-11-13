@@ -126,6 +126,7 @@ body{
 .tab:hover{
     border: 1px solid $secondary-color;
     scale: 1.2;
+    transition: ease-in-out 0.3s;
 }
 .slide-img{
     border-radius: 20px;
@@ -138,6 +139,7 @@ body{
     scale: 1.1;
     border: 5px solid $secondary-color;
     border-radius: 25px;
+    transition: ease-in-out 0.5s;
 }
 
 /* info-section */
@@ -222,7 +224,7 @@ body{
 }
 
 #contact-container{
-    background-color:$secondary-color;
+    background-color: hsla(0, 0%, 96%, 0.1) ;
     backdrop-filter: blur(100px);
     padding: 50px;
     border-radius: 10px;
